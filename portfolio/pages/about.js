@@ -1,14 +1,14 @@
 import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
 
-class Index extends React.Component {
+class About extends React.Component {
   render() {
     return (
       <BaseLayout>
-        <h1>Welcome page from Index class component</h1>
+        <h1>Welcome page from about class component</h1>
       </BaseLayout>
     );
   }
 }
 
-export default Index;
+export default About;
